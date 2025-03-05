@@ -36,4 +36,4 @@ Use the shortcode `[task_list]` in any post or page to display all tasks.
 GPL-2.0+
 
 ## Author
-[Your Name]
+Vadym https://vydy.net
