@@ -1,0 +1,59 @@
+/* assets/css/task-list.css */
+.task-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+.task-title {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.task-content {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.task-status {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.no-tasks {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .task-list-container {
+        padding: 10px;
+    }
+
+    .task-item {
+        padding: 10px;
+    }
+}
