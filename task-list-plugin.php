@@ -4,7 +4,7 @@
 Plugin Name: Task List Plugin
 Description: A simple plugin to manage and display tasks using a custom post type and shortcode
 Version: 1.0
-Author: Your Name
+Author: Vadym https://vydy.net
 */
 
 // Prevent direct access to the plugin
